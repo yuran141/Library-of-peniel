@@ -1,0 +1,30 @@
+.search {
+    position: relative;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+}
+input {
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid #bbb;
+    margin: 10px 0;
+    padding: 10px 12px;
+}
+.fa-search {
+    position: absolute;
+    left: 15px;
+    top: 20px;
+    margin: 0;
+}
+.fa-keyboard {
+    position: absolute;
+    right: 35px;
+    top: 20px;
+}
+.fa-microphone {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    color: blue;
+}
