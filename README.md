@@ -7,4 +7,4 @@
 * #### Features
     * book search
     * location of book gui 
-    * 도서 자동 추천 기능
+    * 도서 자동 추천 기능 (예정)
