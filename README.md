@@ -5,6 +5,5 @@
 ---
 
 * #### Features
-    * book search
-    * location of book gui 
-    * 도서 자동 추천 기능 (예정)
+    * 도서 검색
+    * 도서 위치 GUI(예정)
