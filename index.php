@@ -24,10 +24,10 @@ if (isset($_GET['search'])) {
     // 결과 출력
     if ($result->num_rows > 0) {
         while ($row = $result->fetch_assoc()) {
-            echo "제목: " . $row["title"] . "<br>";
+            echo "제목: " . $row["name"] . "<br>";
             echo "저자: " . $row["author"] . "<br>";
-            echo "출판 연도: " . $row["publication_year"] . "<br>";
-            echo "ISBN: " . $row["isbn"] . "<br><br>";
+            echo "출판 연도: " . $row["publisher"] . "<br>";
+            echo "ISBN: " . $row["code  "] . "<br><br>";
         }
     } else {
         echo "검색 결과가 없습니다.";
