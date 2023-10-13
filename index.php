@@ -40,16 +40,32 @@ $conn->close();
 
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <title>도서 검색</title>
-</head>
-<body>
-<h1>도서 검색</h1>
-<form method="GET" action="">
-    <label>
-        <input type="text" name="search" placeholder="도서 이름을 입력하세요">
-    </label>
-    <input type="submit" value="검색">
-</form>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>PenielBook</title>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+    <div id="wrap">
+        <div id="header" role="banner">
+            <div id="penielLogo">
+                <h1>PenielBook</h1>
+            </div>
+            <div id="search_area">
+            <form method="GET" action="">
+                <label>
+                    <input type="text" name="search" placeholder="도서 이름을 입력하세요">
+                </label>
+                <input type="submit" value="검색">
+            </form>
+            </div>
+        </div>
+        <div id="container">
+            <p></p>
+        </div>
+        <div id="footer">
+            <p></p>
+        </div>
+    </body>
 </html>
