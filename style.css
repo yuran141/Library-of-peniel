@@ -1,0 +1,46 @@
+#penielLogo {
+    width: 1980px;
+    height: 60px;
+    flex-grow: 0;
+    padding: 20px 249px 30px 323px;
+    border-radius: 0;
+    border: solid 1px rgba(255, 255, 255, 0.1);
+    background-color: #f8f9fa;
+}
+.navbar {
+    display: inline-block;
+    vertical-align: middle;
+    width: 300px;
+    font-family: Inter, serif;
+    font-size: 48px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #01b74a;
+    text-decoration-line: none;
+}
+
+.searchbar {
+    display: inline-block;
+    vertical-align: middle;
+    width: 225px;
+    height: 30px;
+    margin: 10px 0 1px 190px;
+    border-radius: 3px;
+    border: solid 1px rgba(0, 0, 0, 0.25);
+    background-color: #ffffff;
+}
+
+.search {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50px;
+    height: 30px;
+    margin: 10px 5px 1px 10px;
+    border-radius: 3px;
+    border: solid 1px rgba(0, 0, 0, 0.05);
+    background-color: #01b74a;
+}
