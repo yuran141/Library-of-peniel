@@ -9,7 +9,7 @@
     <meta property="og:description" content="검색 한번으로 브니엘 디지털 도서관 도서를 찾을 수 있습니다.">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <title>PenielBook</title>
-    <link href="style1.css" rel="stylesheet" type="text/css"/>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <header>
