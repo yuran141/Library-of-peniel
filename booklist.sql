@@ -1,7 +1,6 @@
-CREATE DATABASE IF NOT EXISTS list1;
 -- 데이터베이스 연결 설정
-CREATE DATABASE IF NOT EXISTS list1;
-USE list1;
+CREATE DATABASE IF NOT EXISTS list2;
+USE list2;
 
 -- 도서 정보 테이블 생성
 CREATE TABLE IF NOT EXISTS `book` (

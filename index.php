@@ -2,27 +2,31 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="MapBook">
+    <meta name="description" content="검색 한번으로 브니엘 디지털 도서관 도서를 찾을 수 있습니다.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="PenielBook">
+    <meta property="og:description" content="검색 한번으로 브니엘 디지털 도서관 도서를 찾을 수 있습니다.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <title>PenielBook</title>
-    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link href="style1.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<div id="header">
-    <nav>
-        <div id="penielLogo">
-            <a class="navbar" href="https://www.google.com/"
-               style="color: #00b74a; font-size: 30px; font-weight: bold; margin-left: 15%;">PenielBook</a>
-            <div>
+<header>
+    <nav id="penielLogo">
+        <div class="container-fluid" style="margin-left: 20%">
+            <a class="navbar" href="https://www.google.com/" style="color: #00b74a;
+            font-size: 30px; font-weight: bold; margin-left: 15%;">PenielBook
+            </a>
             <form method="GET" action="">
                 <label>
                     <input type="text" class="searchbar" name="search" placeholder="도서 이름을 입력하세요">
                 </label>
-                <input type="submit" class="search" value="검색">
+                <input type="submit" class="search" value="search">
             </form>
-            </div>
         </div>
-    </nav>
-</div>
+    <nav>
+</header>
 
 <!-- Page Content-->
 
@@ -32,7 +36,7 @@
     $host = "localhost";
     $username = "root";
     $password = "2718";
-    $database = "list1";
+    $database = "list2";
 
     $conn = new mysqli($host, $username, $password, $database);
 
