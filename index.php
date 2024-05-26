@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="MapBook">
-    <meta name="description" content="검색 한번으로 브니엘 디지털 도서관 도서를 찾을 수 있습니다.">
+    <meta name="description" content="검색 한번으로 디지털 도서관 도서를 찾을 수 있습니다.">
     <meta property="og:type" content="website">
     <meta property="og:title" content="PenielBook">
-    <meta property="og:description" content="검색 한번으로 브니엘 디지털 도서관 도서를 찾을 수 있습니다.">
+    <meta property="og:description" content="검색 한번으로 디지털 도서관 도서를 찾을 수 있습니다.">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <title>PenielBook</title>
     <link href="style.css" rel="stylesheet" type="text/css"/>
